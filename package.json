@@ -1,17 +1,23 @@
 {
   "name": "Use",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "DRY version of require()",
   "main": "use.js",
-  "bin": { "moruga": "index.js" },
-  "author": {
-    "name": "Kurt Griffiths",
-    "email": "sffirgk@gmail.com",
-    "url": "http://kgriffs.com"
+  "bin": {
+    "moruga": "index.js"
   },
-  "keywords": ["require", "multiple", "util"],
-  "repository" : {
+  "author": "Kurt Griffiths <sffirgk@gmail.com> (http://kgriffs.com)",
+  "keywords": [
+    "require",
+    "multiple",
+    "util"
+  ],
+  "repository": {
     "type": "git",
-    "url": "https://github.com/kgriffs/node-use.git"
-  }
+    "url": "git://github.com/kgriffs/node-use.git"
+  },
+  "scripts": {
+    "test": "test.js"
+  },
+  "license": "BSD"
 }
