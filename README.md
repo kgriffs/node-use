@@ -18,11 +18,25 @@ eval(require('use')(
   'https',
   'url',
   'path',
-  'stream'
+  'stream',
+
+  'xregexp#XRegExp',
+
+  './helper'
 ));
 
 util.debug('Easy as pie...');
+
+XRegExp.replace(
+  'x-key-lime', 
+  XRegExp('\\b\\w', 'g'), 
+  function(match) { 
+    return match.toUpperCase();
+  }
+);
+
+helper.doSomethingGrand();
 ```
 
-Warning: This module does not work in strict mode. Only enable strict mode, if you need it, after the eval statement.
+**Warning: This module does not work in strict mode. Only enable strict mode, if you need it, after the eval statement.**
 
