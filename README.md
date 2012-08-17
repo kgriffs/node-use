@@ -24,3 +24,5 @@ eval(require('use')(
 util.debug('Easy as pie...');
 ```
 
+Warning: This module does not work in strict mode. Only enable strict mode, if you need it, after the eval statement.
+
