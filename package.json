@@ -1,6 +1,6 @@
 {
   "name": "use",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "DRY version of require()",
   "bin": {
     "moruga": "index.js"
