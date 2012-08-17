@@ -11,14 +11,5 @@ assert.ok(util.debug, 'util.debug not defined');
 assert.ok(http.createServer, 'http.createServer not defined');
 assert.ok(url.format, 'url.format not defined');
 
-eval(require('./use')(
-  'util', 
-  'http',
-  'https',
-  'url',
-  'path',
-  'stream'
-));
-
 util.debug('Easy as pie...');
 

@@ -5,7 +5,7 @@ exports = module.exports = function use(moduleNames) {
   moduleNames = Array.isArray(moduleNames) ? moduleNames : [].slice.call(arguments);
 
   moduleNames.forEach(function (m) {
-    script += util.format('var %s = require("%s");\n', m, m);
+    script += util.format('var %s = require("%s"); ', m, m);
   })
 
   return script;

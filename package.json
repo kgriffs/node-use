@@ -1,8 +1,7 @@
 {
-  "name": "Use",
+  "name": "use",
   "version": "1.0.0",
   "description": "DRY version of require()",
-  "main": "use.js",
   "bin": {
     "moruga": "index.js"
   },
@@ -17,7 +16,8 @@
     "url": "git://github.com/kgriffs/node-use.git"
   },
   "scripts": {
-    "test": "test.js"
+    "test": "node ./test.js"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "main": "use.js"
 }

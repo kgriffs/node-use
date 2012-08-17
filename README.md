@@ -1,4 +1,4 @@
-Use
+Use.js
 ======
 
 DRY version of require() for Node.js
