@@ -38,5 +38,7 @@ XRegExp.replace(
 helper.doSomethingGrand();
 ```
 
-**Warning: This module does not work in strict mode. Only enable strict mode, if you need it, after the eval statement.**
+### Warning ### 
+
+This module does not work in strict mode. Only enable strict mode, if you need it, *after* the eval statement.
 
